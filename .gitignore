@@ -1,0 +1,33 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore database files
+db.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore static and media files (optional, if you don't want to track them)
+staticfiles/
+media/
+
+# Ignore editor/IDE settings
+.vscode/
+.idea/
+
+# Ignore migration files (optional, if you regenerate migrations often)
+*.pyc
+*.pyo
+migrations/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
